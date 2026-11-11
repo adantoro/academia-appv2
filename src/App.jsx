@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [tareas, setTareas] = useState([
-    { id: 1, titulo: 'Revisar matrículas de Inglés', estado: 'Pendiente', responsable: 'Juan Maldonado' },
+    { id: 1, titulo: 'Revisar matrículas de Inglés', estado: 'Completado', responsable: 'Juan Maldonado' },
     { id: 2, titulo: 'Asignar sala para Portugués', estado: 'Completado', responsable: 'Victor Soto' }
   ])
   const [nuevoTitulo, setNuevoTitulo] = useState('')
