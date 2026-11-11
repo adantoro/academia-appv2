@@ -3,8 +3,8 @@ import './App.css'
 
 function App() {
   const [tareas, setTareas] = useState([
-    { id: 1, titulo: 'Revisar matrículas de Inglés', estado: 'Pendiente', responsable: 'Adán Toro' },
-    { id: 2, titulo: 'Asignar sala para Portugués', estado: 'Completado', responsable: 'Ferox' }
+    { id: 1, titulo: 'Revisar matrículas de Inglés', estado: 'Pendiente', responsable: 'Juan Maldonado' },
+    { id: 2, titulo: 'Asignar sala para Portugués', estado: 'Completado', responsable: 'Victor Soto' }
   ])
   const [nuevoTitulo, setNuevoTitulo] = useState('')
   const [responsable, setResponsable] = useState('')
@@ -26,7 +26,7 @@ function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: '0 auto', textAlign: 'center' }}>
       <h1 style={{ fontSize: '1.6rem', lineHeight: '1.4', marginBottom: '8px' }}>
-        🎓 Sistema de Gestión - Academia de Idiomas, PruebaEn vivo
+        🎓 Sistema de Gestión - Academia de Idiomas, Prueba En vivo
       </h1>
       <p style={{ marginTop: 0, color: '#888', marginBottom: '20px' }}>
         Prototipo Web - Despliegue en Vercel (Grupo 6)
